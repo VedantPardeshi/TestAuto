@@ -9,7 +9,7 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{DC9A2459-39A8-402D-9AE9-D91F26324A60}" version="14">
 		<children>
-			<testItem name="MedAvailAutomation" key="{125E3918-9E23-4257-AE89-1DF8353F0F8F}" group="False" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+			<testItem name="MedAvailAutomation" key="{125E3918-9E23-4257-AE89-1DF8353F0F8F}" group="False" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children>
@@ -31,7 +31,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="verifyUiOfQaConsultAuthorizeTask" key="{2B15DB3E-7DCF-4762-B5D8-2E2D0C3D1E01}" group="False" parallel="False" enabled="True" testMoniker="{EF0091CF-7F4A-4E9F-B579-F91E66E5E7C3}verifyUiOfQaConsultAuthorizeTask" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="verifyUiOfQaConsultAuthorizeTask" key="{2B15DB3E-7DCF-4762-B5D8-2E2D0C3D1E01}" group="False" parallel="False" enabled="False" testMoniker="{EF0091CF-7F4A-4E9F-B579-F91E66E5E7C3}verifyUiOfQaConsultAuthorizeTask" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -71,16 +71,11 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="ProjectTestItem1" key="{DCCF3A50-C632-468D-8803-523B58F809A7}" group="False" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem2" key="{227F1166-D8AC-4E72-9882-0096FB868551}" group="False" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="ProjectTestItem1" key="{9F1F2AAC-19C1-4B7E-ADBC-E6DF8870BBBC}" group="False" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children>
-					<testItem name="verifyUIForQATask" key="{552D8A33-FF1F-4B62-B3D4-CBCD1A83878A}" group="False" parallel="False" enabled="True" testMoniker="{5B1C517C-8B6D-4AB3-9272-7462CB7A0676}verifyUIForQATask" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="TC_96686_2" key="{52AE2E36-18E7-48DB-812B-0AC67B868B21}" group="False" parallel="False" enabled="True" testMoniker="{99ACB8A9-FDE5-4A42-A6DD-646E1D2AEA7E}TC_96686" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
@@ -96,10 +91,10 @@
 					<DefValue StrValue="3800390036003100390033004400300046003400440038003700330046003200380043003900380043003700390036004400410046003900300033003100450037004300310035004400340031004600380032003200390033004300360038003600450039003600450042003200330038003000" />
 				</Variable>
 				<Variable Name="PIN" Type="Password" Local="False">
-					<DefValue StrValue="38003900360031003600330044003300460034004400380042003300460031003900340039004600440046003900310032003200460039004600420037004300420045003700390044003400390038003800350036003800" />
+					<DefValue StrValue="3800390036003100360033004400310046003400440038004200330046003100390034003900460044004600390031003200320046003900430042003100390042004100320044004400320043004200" />
 				</Variable>
 				<Variable Name="LoginUsername" Type="String" Local="False">
-					<DefValue StrValue="gayatri@medplatform.box" />
+					<DefValue StrValue="vedantpardeshi@medplatform.box" />
 				</Variable>
 				<Variable Name="MedcenterNumber" Type="String" Local="False">
 					<DefValue StrValue="V4-00023" />
@@ -164,11 +159,20 @@
 				<Variable Name="CounsellingStatus" Type="String" Local="False">
 					<DefValue StrValue="Ready" />
 				</Variable>
+				<Variable Name="CameraDetails" Type="String" Local="False">
+					<DefValue StrValue="Integrated Webcam (0c45:6730)" />
+				</Variable>
+				<Variable Name="MicrophoneDetails" Type="String" Local="False">
+					<DefValue StrValue="Default - Microphone Array (Intel® Smart Sound Technology for Digital Microphones)" />
+				</Variable>
+				<Variable Name="SpeakerDetails" Type="String" Local="False">
+					<DefValue StrValue="Default - Speakers (Realtek(R) Audio)" />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{4AF1E2CF-1DB6-49EF-908B-EB784495B237}">
-		<settingsVersion value="15.52" />
+		<settingsVersion value="15.50" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -189,12 +193,12 @@
 			<data />
 		</setting>
 		<setting name="ApplicationHangingTimeout" type="2" value="30000" />
-		<setting name="AzureDevOps_CollectionID" type="5" value="" />
-		<setting name="AzureDevOps_ProjectID" type="5" value="" />
-		<setting name="AzureDevOps_ServerName" type="5" value="" />
-		<setting name="AzureDevOps_TeamProject" type="5" value="" />
+		<setting name="AzureDevOps_CollectionID" type="5" value="{88B8C832-6EEF-4191-866C-14FF9639AFDD}" />
+		<setting name="AzureDevOps_ProjectID" type="5" value="vstfs:///Classification/TeamProject/bf747f10-eda0-4f32-801d-5ba4dddda763" />
+		<setting name="AzureDevOps_ServerName" type="5" value="https://medavailtechnologies.visualstudio.com/" />
+		<setting name="AzureDevOps_TeamProject" type="5" value="RDS" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
-		<setting name="AzureDevOps_URL" type="5" value="" />
+		<setting name="AzureDevOps_URL" type="5" value="https://medavailtechnologies.visualstudio.com/" />
 		<setting name="BitBar_APIKey" type="5" value="" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
